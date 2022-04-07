@@ -74,6 +74,7 @@ class ViewController: UIViewController {
         
     }
     
+    
     @IBAction func pressNext(_ sender: Any) {
         
         // Validate if it's already on the last page
@@ -141,6 +142,7 @@ class ViewController: UIViewController {
         } else {
             favMusicBtn.setImage(UIImage(systemName: "heart"), for: .normal)
         }
+        print("hello")
         
     }
 
